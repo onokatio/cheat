@@ -29,3 +29,15 @@
 - `s`: セッションリーダー (セッショングループ/プロセスグループのリーダー)。Linuxではシグナルをプロセス単体ではなくセッショングループ、プロセスグループのメンバー全体に投げる。
 - `l`: スレッド。軽量プロセス(ライトウェイトプロセス)。
 - `+`: どこかのプロセスグループに属す
+
+# vagrant
+
+box list: https://app.vagrantup.com/boxes/search
+
+```
+vagrant box list
+vagrant box add hoge/fuga
+vagrant init hoge/fuga
+vagrant up
+vagrant ssh
+```
