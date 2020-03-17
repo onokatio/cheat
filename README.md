@@ -41,3 +41,11 @@ vagrant init hoge/fuga
 vagrant up
 vagrant ssh
 ```
+
+# Rip Music CD
+
+```
+cdda2wav -vall cddb=0 speed=4 -paranoia paraopts=proof -B -D /dev/sr0
+```
+
+or `asunder`
